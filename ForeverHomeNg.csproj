@@ -179,8 +179,6 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="app\components\todolist\todolist.component.css" />
-    <Content Include="app\components\todolist\todolist.component.html" />
     <Content Include=".gitignore" />
     <None Include="readme.md" />
     <Content Include="systemjs.config.js" />
@@ -224,6 +222,7 @@
     <Content Include="Views\Shared\DefineAngular.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="app\services\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
@@ -240,14 +239,10 @@
   <ItemGroup>
     <TypeScriptCompile Include="app\bootDonate.ts" />
     <TypeScriptCompile Include="app\bootStory.ts" />
-    <TypeScriptCompile Include="app\boottodolist.ts" />
     <TypeScriptCompile Include="app\bootHome.ts" />
     <TypeScriptCompile Include="app\components\donate\donate.component.ts" />
     <TypeScriptCompile Include="app\components\home\home.component.ts" />
     <TypeScriptCompile Include="app\components\story\story.component.ts" />
-    <TypeScriptCompile Include="app\components\todolist\todolist.component.ts" />
-    <TypeScriptCompile Include="app\services\app.service.donate.ts" />
-    <TypeScriptCompile Include="app\services\app.service.todolist.ts" />
     <TypeScriptCompile Include="app\utils\HttpHelpers.ts" />
     <TypeScriptCompile Include="Scripts\Enums.ts">
       <DependentUpon>TypeLite.Net4.tt</DependentUpon>
