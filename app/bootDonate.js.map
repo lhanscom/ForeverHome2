@@ -1,1 +1,1 @@
-{"version":3,"file":"bootDonate.js","sourceRoot":"","sources":["bootDonate.ts"],"names":[],"mappings":";AAAA,qBAA6B,eAAe,CAAC,CAAA;AAC7C,yCAA2B,mCAC3B,CAAC,CAD6D;AAE9D,iCAA8B,sCAAsC,CAAC,CAAA;AAErE,qBAAc,EAAE,CAAC;AACjB,oCAAS,CAAC,kCAAe,CAAC,CAAC"}
+{"version":3,"file":"bootDonate.js","sourceRoot":"","sources":["bootDonate.ts"],"names":[],"mappings":";AACA,yCAA2B,mCAC3B,CAAC,CAD6D;AAE9D,iCAA8B,sCAAsC,CAAC,CAAA;AAErE,mBAAmB;AACnB,oCAAS,CAAC,kCAAe,CAAC,CAAC"}
