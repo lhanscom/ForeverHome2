@@ -7,6 +7,9 @@
 
 header {
     display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
     background-color: #fff;
     border-bottom: 1px solid #e7eaec;
     padding: 8px;
@@ -61,3 +64,20 @@ footer {
         display: flex;
         flex: 1;
     }
+.menuButtons {
+    display: flex;
+    display: -webkit-flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+
+}
+@media (min-width: 500px) {
+    .menuButton {
+        width: 33%;
+    }
+}
+@media (max-width: 500px) {
+    .menuButton {
+        width: 100%;
+    }
+}
